@@ -33,7 +33,7 @@ const theme = createMuiTheme({
     },
     "background":{
        "paper":"rgba(255, 255, 255, 1)",
-       "default":"rgba(236, 238, 239, 1)"
+       "default": "#e8f5e9",
     },
     "primary":{
        "light":"rgba(73, 73, 73, 1)",

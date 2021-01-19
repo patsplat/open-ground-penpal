@@ -1,19 +1,19 @@
 import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import { BrowserRouter as Router } from "react-router-dom";
+
 
 import Routes from './routes';
-import Navigation from './navigation';
 import OpenGroundTheme from './open-ground-theme';
 
 function App() {
   return (
-    <React.Fragment>
-      <CssBaseline />
+    <Router forceRefresh={false}>
       <OpenGroundTheme>
-        <Navigation />
+        <CssBaseline />
         <Routes />
       </OpenGroundTheme>
-    </React.Fragment>
+    </Router>
   );
 }
 
