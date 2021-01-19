@@ -3,9 +3,28 @@ import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
 const theme = createMuiTheme({
   typography: {
-    fontFamily: [
-      'Cutive Mono'
-    ]
+    fontFamily: [ 'IBM Plex Sans' ],
+    h1: {
+      fontFamily: [ 'IBM Plex Mono' ],
+      fontWeight: 400,
+      fontSize: "3rem",
+      lineHeight: 1.167,
+      letterSpacing: "0em",
+    },
+    h2: {
+      fontFamily: [ 'IBM Plex Mono' ],
+      fontWeight: 400,
+      fontSize: "2.125rem",
+      lineHeight: 1.235,
+      letterSpacing: "0.00735em",
+    },
+    h3: {
+      fontFamily: [ 'IBM Plex Mono' ],
+      fontWeight: 400,
+      fontSize: "1.5rem",
+      lineHeight: 1.334,
+      letterSpacing: "0em",
+    },
   },
   "palette":{
     "common":{
