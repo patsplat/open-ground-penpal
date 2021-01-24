@@ -43,7 +43,12 @@ export const Header = withRouter(({isProfile, history}) => {
 export const Footer = withRouter(({history}) => {
   return (
     <Container>
-      Maintained by <a href="https://twitter.com/PatricksData">PatricksData</a>.
+      <Typography variant="body2">Need help?  Anything at all?</Typography>
+      
+      <Typography variant="body2">
+        Let me know if there are any issues. Send a message to
+        <a href="https://www.instagram.com/patricksdata/">PatricksData</a>
+      </Typography>
     </Container>
   )
 });
